@@ -1,1 +1,4 @@
-# CryptoSentimentAnalysis
+## Sentiment Analysis of SHIB and DOGE 
+SHIB and DOGE cryptocurrency trends were analysed using messages from Crypto.com's official Telegram Channel. Analysis was done on all messages sent between May 1st and May 15th that contained "SHIB" or "DOGE" in them. Preprocessing steps included converting to lowercase, removing non-alphabet characters and expanding contractions.   
+For analysing the sentiment of each message, I have used the Flair package: https://github.com/flairNLP/flair. Flair is a powerful NLP library that can be used for downstream NLP tasks such as Sentiment Analysis. It leverages large scale pre-trained models such as BERT and ELMo that can perform well for downstream tasks.  
+To run the code, install the packages present in the requirements file and run all cells of the accompanying Jupyter Notebook. It will perform the analysis and generate the necessary descriptive plots using Plotly.
